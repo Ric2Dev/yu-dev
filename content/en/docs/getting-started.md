@@ -28,6 +28,6 @@ Before you begin, ensure you have:
 
 After completing the setup:
 
-- Review the [Coding Standards](/docs/coding-standards/)
-- Understand our [Architecture](/docs/architecture/)
+- Review the [Coding Standards](/en/docs/coding-standards/)
+- Understand our [Architecture](/en/docs/architecture/)
 - Join the team communication channels

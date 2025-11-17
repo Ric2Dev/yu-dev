@@ -9,5 +9,5 @@ This is the central documentation hub for the Yu-Dev development team. Here you'
 
 ## Quick Links
 
-- [Documentation](/docs/) - Technical documentation and guides
-- [About](/about/) - About the team and project
+- [Documentation](/en/docs/) - Technical documentation and guides
+- [About](/en/about/) - About the team and project
