@@ -1,30 +1,61 @@
 baseURL = 'https://ric2dev.github.io/yu-dev/'
-languageCode = 'en-us'
+defaultContentLanguage = 'es'
 title = 'Yu-Dev Documentation'
 theme = 'PaperMod'
 
 [params]
   description = "Developer team documentation"
   author = "Yu-Dev Team"
-  
-  [params.homeInfoParams]
-    Title = "Welcome to Yu-Dev Documentation"
-    Content = "Coding and architecture definitions for the development team"
 
-[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 10
+[languages]
+  [languages.es]
+    languageCode = 'es-ES'
+    languageName = 'Español'
+    title = 'Documentación Yu-Dev'
+    weight = 1
+    
+    [languages.es.params]
+      description = "Documentación del equipo de desarrollo"
+      author = "Equipo Yu-Dev"
+      
+      [languages.es.params.homeInfoParams]
+        Title = "Bienvenido a la Documentación de Yu-Dev"
+        Content = "Definiciones de código y arquitectura para el equipo de desarrollo"
+    
+    [[languages.es.menu.main]]
+      identifier = "menu-docs-es"
+      name = "Documentación"
+      url = "docs/"
+      weight = 20
+    
+    [[languages.es.menu.main]]
+      identifier = "menu-about-es"
+      name = "Acerca de"
+      url = "about/"
+      weight = 30
 
-[[menu.main]]
-  identifier = "docs"
-  name = "Documentation"
-  url = "/docs/"
-  weight = 20
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 30
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Yu-Dev Documentation'
+    weight = 2
+    
+    [languages.en.params]
+      description = "Developer team documentation"
+      author = "Yu-Dev Team"
+      
+      [languages.en.params.homeInfoParams]
+        Title = "Welcome to Yu-Dev Documentation"
+        Content = "Coding and architecture definitions for the development team"
+    
+    [[languages.en.menu.main]]
+      identifier = "menu-docs-en"
+      name = "Documentation"
+      url = "docs/"
+      weight = 20
+    
+    [[languages.en.menu.main]]
+      identifier = "menu-about-en"
+      name = "About"
+      url = "about/"
+      weight = 30
