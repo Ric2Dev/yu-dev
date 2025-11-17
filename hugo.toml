@@ -1,0 +1,30 @@
+baseURL = 'https://ric2dev.github.io/yu-dev/'
+languageCode = 'en-us'
+title = 'Yu-Dev Documentation'
+theme = 'PaperMod'
+
+[params]
+  description = "Developer team documentation"
+  author = "Yu-Dev Team"
+  
+  [params.homeInfoParams]
+    Title = "Welcome to Yu-Dev Documentation"
+    Content = "Coding and architecture definitions for the development team"
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "docs"
+  name = "Documentation"
+  url = "/docs/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
